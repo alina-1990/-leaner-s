@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "Stengazeta";
+  src: url("Stengazeta-Regular.woff2") format("woff2"),
+    url("Stengazeta-Regular.woff") format("woff");
+  font-weight: 400;
+}
