@@ -556,6 +556,7 @@
     background-image: url(./images/desktop-bg.png);
     max-width: 800px;
     margin-top: 108px;
+    padding: 0 10px;
   }
   .banner__questions-title {
     margin-top: -112px;
@@ -575,6 +576,7 @@
   .banner__questions-title {
     max-width: 244px;
     margin-bottom: 3px;
+    font-size: 19px;
   }
   .banner__questions-subtitle {
     max-width: 219px;
@@ -590,6 +592,7 @@
   .banner__questions {
     background-image: url(./images/mobile-bg.png);
     height: 790px;
+    padding: 0 10px;
   }
   .banner__questions-title {
     max-width: 300px;
@@ -684,13 +687,25 @@
     margin-top: -38px;
   }
 }
+@media screen and (max-width: 540px) {
+  .advantages__container {
+    margin-top: -54px;
+  }
+}
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
+  .advantages__font {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 340px) {
   .advantages__images {
     height: 45px;
     width: 45px;
     margin-bottom: 8px;
   }
+
   .advantages__none {
     display: none;
   }
@@ -772,7 +787,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .blog {
     margin-top: 30px;
   }
