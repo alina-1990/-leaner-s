@@ -48,14 +48,16 @@
             </p>
           </div>
         </section>
-        <div class="bg">
+        <div class="container">
           <section class="bg-right"></section>
           <section class="bg-left"></section>
           <section class="advantages">
             <article>
               <div class="advantages__container">
-                <div class="advantages__wpapper  advantages__mb">
-                  <img src="./images/advantages-1.png" class="advantages__images" alt="advantages-1" />
+                <div class="advantages__wpapper  advantages__mb advantages__order1">
+                  <img src="./images/advantages-1.png" class="advantages__images advantages__none" alt="advantages-1" />
+                  <img src="./images/mobile-advantages1.png" class="advantages__images advantages__flex"
+                    alt="advantages-1" />
                   <h2 class="advantages__title">
                     Опыт
                   </h2>
@@ -64,9 +66,11 @@
                     (тысячи чистой мебели)
                   </p>
                 </div>
-                <div class="advantages__wpapper advantages__mb">
-                  <img src="./images/advantages-2.png" class="advantages__images" alt="advantages-2" />
-                  <h2 class="advantages__title">
+                <div class="advantages__wpapper advantages__mb advantages__order4">
+                  <img src="./images/advantages-2.png" class="advantages__images advantages__none" alt="advantages-2" />
+                  <img src="./images/mobile-advantages2.png" class="advantages__images advantages__flex"
+                    alt="advantages-2">
+                  <h2 class="advantages__title advantages__font advantages__height">
                     Гарантия качества и чистоты
                   </h2>
                   <p class="advantages__text">
@@ -75,9 +79,11 @@
                     по Химчистке мебели
                   </p>
                 </div>
-                <div class="advantages__wpapper">
-                  <img src="./images/advantages-3.png" class="advantages__images" alt="advantages-3" />
-                  <h2 class="advantages__title">
+                <div class="advantages__wpapper advantages__order3">
+                  <img src="./images/advantages-3.png" class="advantages__images advantages__none" alt="advantages-3" />
+                  <img src="./images/mobile-advantages3.png" class="advantages__images advantages__flex"
+                    alt="advantages-3">
+                  <h2 class="advantages__title advantages__height">
                     Спец. средства
                   </h2>
                   <p class="advantages__text">
@@ -85,8 +91,10 @@
                     запаха + дезинфектанты
                   </p>
                 </div>
-                <div class="advantages__wpapper">
-                  <img src="./images/advantages-4.png" class="advantages__images" alt="advantages-4" />
+                <div class="advantages__wpapper advantages__order2">
+                  <img src="./images/advantages-4.png" class="advantages__images advantages__none" alt="advantages-4" />
+                  <img src="./images/mobile-advantages4.png" class="advantages__images advantages__flex"
+                    alt="advantages-4">
                   <h2 class="advantages__title">
                     Цены
                   </h2>
@@ -121,7 +129,7 @@
                   <h4 class="blog__title">
                     Как убрать слайм с мебели?
                   </h4>
-                  <p class="blog__subtitle blog__fsize">
+                  <p class="blog__subtitle blog__fontsize">
                     Нам понадобится скребок и горячая вода, нужно пролить место загрязнения кипятком и с помощью
                     скребка собрать всё такую последовательность действий выполнять до полной очистки
                   </p>
@@ -130,7 +138,7 @@
                   <h4 class="blog__title">
                     Пятна крови на мебели как убрать?
                   </h4>
-                  <p class="blog__subtitle blog__fsize">
+                  <p class="blog__subtitle blog__fontsize">
                     С выведением крови довольно-таки сложно очень важно незамедлительно приступить к чистке, всё
                     зависит от материала, использовать прохладную воду смачивая место загрязнения и с помощью сухой
                     чистой тряпки методом нажатия ни в коем случае не тереть попытаться вытянуть кровь из ткани, если
@@ -142,7 +150,7 @@
                   <h4 class="blog__title">
                     Зачем нужна химчистка?
                   </h4>
-                  <p class="blog__subtitle blog__fsize">
+                  <p class="blog__subtitle blog__fontsize">
                     Химчистка – это процесс профессиональной очистки текстильных изделий с использованием специальных
                     химических растворителей и оборудования. Она предназначена для удаления сложных загрязнений,
                     которые невозможно устранить при обычной стирке дома.
@@ -202,8 +210,8 @@
                     </li>
                     <li class="blog__items">Уточните стоимость услуг и условия оплаты.</li>
                   </ol>
-                  <p class="blog__subtitle  blog__fontmb">Что нужно учесть перед заказом:</p>
-                  <ol class="blog__list-two" type="a">
+                  <p class="blog__fontmb">Что нужно учесть перед заказом:</p>
+                  <ol class="blog__list-two" type="1">
                     <li class="blog__items">
                       Тип мебели: диваны, кресла, стулья, ковры и т.д.
                     </li>
@@ -218,11 +226,14 @@
                     </li>
                     <li class="blog__items">Время, когда вам удобно провести уборку.</li>
                     <li class="blog__items">Стоимость услуг и возможные дополнительные расходы.</li>
+                    <li class="blog__items">После того как вы выбрали компанию или специалиста,
+                      согласуйте
+                      все детали
+                      и назначьте время визита.</li>
                   </ol>
-                  <p class="blog__subtitle blog__fontmt">После того как вы выбрали компанию или специалиста,
-                    согласуйте
-                    все детали
-                    и назначьте время визита.</p>
+                  <div class="blog__link">
+                    <a href="#" class="blog__btn">Читать еще</a>
+                  </div>
                 </div>
               </div>
             </article>
@@ -232,101 +243,116 @@
               <h4 class="cost__title">
                 Как рассчитать точную стоимость и сделать заказ
               </h4>
-              <div class="cost__image">
-                <img src="images/cost-image.png" alt="number" />
-              </div>
-              <div class="const__wrap">
+              <hr class="cost__line" />
+              <div class="cost__wrap">
                 <div class="cost__wpapper">
-                  <h5 class="const__name">Отправьте фото</h5>
-                  <p class="const__text">Отправить фото на WhatsApp по номеру 8 (910) 089-90-01</p>
+                  <div class="cost__image">
+                    <img src="images/cost1-image.png" class="cost__none" alt="number1" />
+                  </div>
+                  <h5 class="cost__name">Отправьте фото</h5>
+                  <p class="cost__text">Отправить фото на WhatsApp по номеру <a href="#" class="cost__phone">8 (910)
+                      089-90-01</a></p>
                 </div>
                 <div class="cost__wpapper">
-                  <h5 class="const__name">Точный рассчет</h5>
-                  <p class="const__text">Произведём оценку и скажем стоимость выезда сотрудника</p>
+                  <div class="cost__image">
+                    <img src="images/cost2-image.png" class="cost__none" alt="number2" />
+                  </div>
+                  <h5 class="cost__name">Точный рассчет</h5>
+                  <p class="cost__text">Произведём оценку и скажем стоимость выезда сотрудника</p>
                 </div>
                 <div class="cost__wpapper">
-                  <h5 class="const__name">Сделать заказ</h5>
-                  <p class="const__text">Уточните день, время и адрес для выезда сотрудника </p>
+                  <div class="cost__image">
+                    <img src="images/cost3-image.png" class="cost__none" alt="number3" />
+                  </div>
+                  <h5 class="cost__name">Сделать заказ</h5>
+                  <p class="cost__text">Уточните день, время и адрес для выезда сотрудника </p>
                 </div>
                 <div class="cost__wpapper">
-                  <h5 class="const__name">Принимайте работу</h5>
-                  <p class="const__text">После получения услуги проверьте качество и оставьте свой отзыв</p>
+                  <div class="cost__image">
+                    <img src="images/cost4-image.png" class="cost__none" alt="number4" />
+                  </div>
+                  <h5 class="cost__name cost__font">Принимайте работу</h5>
+                  <p class="cost__text">После получения услуги проверьте качество и оставьте свой отзыв</p>
                 </div>
               </div>
             </div>
           </section>
+        </div>
+        <div class="container__fluid">
           <section class="social">
             <div class="social__container">
               <p class="social__text">Для получения консультации по чистке и точного расчёта стоимости заказа,
                 вы можете прислать
                 нам фотографии вашей мебели, матраса или штор в WhatsApp, Telegram или ВКонтакте.</p>
               <div class="social__wrap">
-                <div class="social__wrapper">
+                <div class="social__wrapper social__order3">
                   <span><a href="#" class="social__link"><span class="social__bold">Написать</span> в
                        WhatsApp</a></span>
-                  <span><a href="#"><img src="images/whatsapp_4494494.png" alt="whatsapIcon"></a></span>
+                  <span><a href="#" class="social__whatsapp"><img src="images/whatsapp.png"
+                        alt="whatsappIcon"></a></span>
                 </div>
-                <div class="social__wrapper">
+                <div class="social__wrapper social__order2">
                   <span><a href="#" class="social__link"><span class="social__bold">Написать</span> в
                        Telegram</a></span>
-                  <span><a href="#"><img src="images/telegram_2111646.png" alt="telegram"></a></span>
+                  <span><a href="#" class="social__telegramm"><img src="images/telegramm.png"
+                        alt="telegramm"></a></span>
                 </div>
-                <div class="social__wrapper">
+                <div class="social__wrapper social__order1">
                   <span><a href="#" class="social__link"><span class="social__bold">Написать</span> в
                        VK</a></span>
-                  <span><a href="#"><img src="images/vkontakte_4494517 2.png" alt="vk"></a></span>
+                  <span><a href="#" class="social__vk"><img src="images/vkontakte.png" alt="vk"></a></span>
                 </div>
               </div>
             </div>
           </section>
-
-          <section class="registration">
-            <div class="registration__container">
-              <div class="registration__content">
-                <h5 class="registration__name">
-                  EURO DRY ClEANING
-                </h5>
-                <p class="registration__text">Спасет вашу мебель</p>
-                <img src="./images/forma-images.png" class="registration__images" alt="forma" />
-              </div>
-              <div class="registration__wrap-form">
-                <h5 class="registration__formRegisterName">
-                  Прийдем к вам на помощь в любой ситуации !
-                </h5>
-                <form class="registration__formRegister registration__formRegister_margin" name="contactForm"
-                  id="contactForm">
-                  <div class="registration__formRegisterContainer">
-                    <h6 class="registration__formRegisterTitle">
-                      Оставить заявку
-                    </h6>
-                    <label class="registration__label" for="Имя">
-                      <span class="registration__label-text">Имя</span>
-                      <input id="nameInput" name="text" minlength="2" maxlength="30"
-                        class="registration__input registration__formRegisterInputName" type="text"
-                        pattern="^[A-Za-zА-Яа-яЁё]{2,}$" placeholder="Иван" required />
-                      <span class="nameInput-errors errors"></span>
-                    </label>
-
-                    <label class="registration__label" for="Номер телефона">
-                      <span class="registration__label-text">Номер телефона</span>
-                      <input id="phoneInput" name="phone"
-                        class="registration__input registration__formRegisterInputTelephone" type="tel" minlength="11"
-                        maxlength="30" pattern="^(\+7\d{10}|8\d{10})$" placeholder="+7 999 999 99-99" required />
-
-                      <span class="phoneInput-errors errors"></span>
-                    </label>
-
-                    <button id="submitButton"
-                      class="registration__formRegisterButton registration__formRegisterButton_disabled" type="submit">
-                      Отправить
-                    </button>
-                  </div>
-                </form>
-
-              </div>
+        </div>
+        <section class="registration">
+          <div class="registration__container">
+            <div class="registration__content">
+              <h5 class="registration__name">
+                EURO DRY ClEANING
+              </h5>
+              <p class="registration__text">Спасет вашу мебель</p>
+              <img src="./images/forma-images.png" class="registration__images" alt="forma" />
             </div>
-      </main>
+            <div class="registration__wrap-form">
+              <h5 class="registration__formRegisterName">
+                Прийдем к вам на помощь в любой ситуации !
+              </h5>
+              <form class="registration__formRegister registration__formRegister_margin" name="contactForm"
+                id="contactForm">
+                <div class="registration__formRegisterContainer">
+                  <h6 class="registration__formRegisterTitle">
+                    Оставить заявку
+                  </h6>
+                  <label class="registration__label" for="Имя">
+                    <span class="registration__label-text">Имя</span>
+                    <input id="nameInput" name="text" minlength="2" maxlength="30"
+                      class="registration__input registration__formRegisterInputName" type="text"
+                      pattern="^[A-Za-zА-Яа-яЁё]{2,}$" placeholder="Иван" required />
+                    <span class="nameInput-errors errors"></span>
+                  </label>
 
+                  <label class="registration__label" for="Номер телефона">
+                    <span class="registration__label-text">Номер телефона</span>
+                    <input id="phoneInput" name="phone"
+                      class="registration__input registration__formRegisterInputTelephone" type="tel" minlength="11"
+                      maxlength="30" pattern="^(\+7\d{10}|8\d{10})$" placeholder="+7 999 999 99-99" required />
+
+                    <span class="phoneInput-errors errors"></span>
+                  </label>
+
+                  <button id="submitButton"
+                    class="registration__formRegisterButton registration__formRegisterButton_disabled" type="submit">
+                    Отправить
+                  </button>
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </section>
+      </main>
       <footer class="footer">
         <div class="footer__content">
           <div class="footer__block-lists">

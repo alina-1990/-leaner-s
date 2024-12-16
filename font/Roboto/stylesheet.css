@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto-Regular";
   src: url("Roboto-Regular.woff2") format("woff2"),
     url("Roboto-Regular.woff") format("woff");
   font-weight: 400;
@@ -22,4 +22,10 @@
   src: url("Roboto-Black.woff2") format("woff2"),
     url("Roboto-Black.woff") format("woff");
   font-weight: 900;
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("Roboto-Bold.woff2") format("woff2"),
+    url("Roboto-Bold.woff") format("woff");
+  font-weight: 700;
 }
