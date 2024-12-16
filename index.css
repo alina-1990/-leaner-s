@@ -588,7 +588,7 @@
 
 @media screen and (max-width: 340px) {
   .banner__questions {
-    background-image: url(../cleaners/images/mobile-bg.png);
+    background-image: url(./images/mobile-bg.png);
     height: 790px;
   }
   .banner__questions-title {
@@ -807,7 +807,7 @@
       position: absolute;
       width: 18px;
       height: 11px;
-      background-image: url(../cleaners/images/arrow.svg);
+      background-image: url(./images/arrow.svg);
       top: 8px;
       right: 106px;
       background-repeat: no-repeat;
